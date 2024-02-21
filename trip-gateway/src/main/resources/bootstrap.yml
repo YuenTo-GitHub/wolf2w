@@ -1,0 +1,12 @@
+spring:
+  application:
+    name: trip-gateway
+  cloud:
+    nacos:
+      server-addr: 192.168.175.134:8848
+      config:
+        file-extension: yaml
+        namespace: 3fcd72fa-c201-4805-8868-9a890dc40447
+        server-addr: 192.168.175.134:8848
+  profiles:
+    active: dev

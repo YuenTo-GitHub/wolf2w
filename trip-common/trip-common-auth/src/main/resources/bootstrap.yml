@@ -1,0 +1,6 @@
+spring:
+  cloud:
+    nacos:
+      config:
+        file-extension: yaml
+        namespace: 3fcd72fa-c201-4805-8868-9a890dc40447

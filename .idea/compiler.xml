@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="trip-comment-api" />
+        <module name="trip-search-server" />
+        <module name="trip-common-core" />
+        <module name="trip-gateway" />
+        <module name="trip-common-auth" />
+        <module name="trip-users-server" />
+        <module name="trip-users-api" />
+        <module name="trip-comment-server" />
+        <module name="trip-common-redis" />
+        <module name="trip-search-api" />
+        <module name="trip-data-server" />
+        <module name="trip-article-server" />
+        <module name="trip-article-api" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel target="17" />
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="trip-article-api" options="-parameters" />
+      <module name="trip-article-server" options="-parameters" />
+      <module name="trip-comment-api" options="-parameters" />
+      <module name="trip-comment-server" options="-parameters" />
+      <module name="trip-common-auth" options="-parameters" />
+      <module name="trip-common-core" options="-parameters" />
+      <module name="trip-common-redis" options="-parameters" />
+      <module name="trip-data-server" options="-parameters" />
+      <module name="trip-gateway" options="-parameters" />
+      <module name="trip-search-api" options="-parameters" />
+      <module name="trip-search-server" options="-parameters" />
+      <module name="trip-users-api" options="-parameters" />
+      <module name="trip-users-server" options="-parameters" />
+    </option>
+  </component>
+</project>

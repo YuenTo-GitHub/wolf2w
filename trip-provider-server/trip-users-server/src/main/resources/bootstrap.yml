@@ -1,0 +1,19 @@
+spring:
+  application:
+    name: trip-users-server
+  cloud:
+    nacos:
+      server-addr: 192.168.175.134:8848
+      config:
+        file-extension: yaml
+        namespace: 3fcd72fa-c201-4805-8868-9a890dc40447
+        server-addr: 192.168.175.134:8848
+        # 告诉配置中心需要从远程额外拉取哪些文件
+        shared-configs:
+          - data-id: mysql-dev.yaml
+          - data-id: redis-dev.yaml
+          - data-id: mongodb-dev.yaml
+          - data-id: jwt-dev.yaml
+          - data-id: aliyun-sms-dev.yaml
+  profiles:
+    active: dev
